@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ClassCluster.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ClassCluster *test = [ClassCluster buyshoesWithType:womenshoes];
+    NSLog(@"花了%ld块钱",(long)[test shouldpayMoney]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

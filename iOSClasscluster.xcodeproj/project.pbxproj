@@ -15,6 +15,8 @@
 		AA3C29401D7438BB00F3D484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3C293E1D7438BB00F3D484 /* LaunchScreen.storyboard */; };
 		AA3C294B1D7438BB00F3D484 /* iOSClassclusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C294A1D7438BB00F3D484 /* iOSClassclusterTests.m */; };
 		AA3C29561D7438BB00F3D484 /* iOSClassclusterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C29551D7438BB00F3D484 /* iOSClassclusterUITests.m */; };
+		AA3C29651D7438CE00F3D484 /* ClassCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C29641D7438CE00F3D484 /* ClassCluster.m */; };
+		AA76C14F1D743AE30012598A /* WomenShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76C14E1D743AE30012598A /* WomenShoes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		AA3C29511D7438BB00F3D484 /* iOSClassclusterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSClassclusterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3C29551D7438BB00F3D484 /* iOSClassclusterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSClassclusterUITests.m; sourceTree = "<group>"; };
 		AA3C29571D7438BB00F3D484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3C29631D7438CE00F3D484 /* ClassCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassCluster.h; sourceTree = "<group>"; };
+		AA3C29641D7438CE00F3D484 /* ClassCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCluster.m; sourceTree = "<group>"; };
+		AA76C14D1D743AE30012598A /* WomenShoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomenShoes.h; sourceTree = "<group>"; };
+		AA76C14E1D743AE30012598A /* WomenShoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomenShoes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				AA3C293E1D7438BB00F3D484 /* LaunchScreen.storyboard */,
 				AA3C29411D7438BB00F3D484 /* Info.plist */,
 				AA3C29301D7438BB00F3D484 /* Supporting Files */,
+				AA3C29631D7438CE00F3D484 /* ClassCluster.h */,
+				AA3C29641D7438CE00F3D484 /* ClassCluster.m */,
+				AA76C14D1D743AE30012598A /* WomenShoes.h */,
+				AA76C14E1D743AE30012598A /* WomenShoes.m */,
 			);
 			path = iOSClasscluster;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3C29381D7438BB00F3D484 /* ViewController.m in Sources */,
+				AA3C29651D7438CE00F3D484 /* ClassCluster.m in Sources */,
 				AA3C29351D7438BB00F3D484 /* AppDelegate.m in Sources */,
+				AA76C14F1D743AE30012598A /* WomenShoes.m in Sources */,
 				AA3C29321D7438BB00F3D484 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				AA3C295C1D7438BB00F3D484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA3C295D1D7438BB00F3D484 /* Build configuration list for PBXNativeTarget "iOSClassclusterTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				AA3C295F1D7438BB00F3D484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA3C29601D7438BB00F3D484 /* Build configuration list for PBXNativeTarget "iOSClassclusterUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				AA3C29621D7438BB00F3D484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
