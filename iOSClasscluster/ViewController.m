@@ -18,7 +18,6 @@
     [super viewDidLoad];
     ClassCluster *test = [ClassCluster buyshoesWithType:womenshoes];
     NSLog(@"花了%ld块钱",(long)[test shouldpayMoney]);
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
